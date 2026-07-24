@@ -1,10 +1,11 @@
+package com.example.demo.model;
+
 public class Coffee {
 
     private int id;
     private String name;
     private double price;
 
-    // Constructor
     public Coffee() {
     }
 
@@ -14,7 +15,6 @@ public class Coffee {
         this.price = price;
     }
 
-    // Getters
     public int getId() {
         return id;
     }
@@ -27,7 +27,6 @@ public class Coffee {
         return price;
     }
 
-    // Setters
     public void setId(int id) {
         this.id = id;
     }
@@ -38,15 +37,5 @@ public class Coffee {
 
     public void setPrice(double price) {
         this.price = price;
-    }
-
-    // toString() method
-    @Override
-    public String toString() {
-        return "Coffee{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                '}';
     }
 }
