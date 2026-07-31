@@ -141,7 +141,7 @@ http://localhost:8080
 ตัวอย่างการใช้คำสั่ง curl เพื่อทดสอบ
 ---
 
-## 1. ดูเมนูทั้งหมด
+## 1. GET - ดูเมนูทั้งหมด
 
 Method
 
@@ -155,7 +155,7 @@ Endpoint
 /coffees
 ```
 
-ตัวอย่าง
+ตัวอย่างคำสั่ง
 
 ```
 curl http://localhost:8080/coffees
@@ -185,7 +185,7 @@ Response
 
 ---
 
-## 2. ดูเมนูตาม ID
+## 2. GET by id - ดูเมนูตาม ID
 
 Method
 
@@ -199,7 +199,7 @@ Endpoint
 /coffees/{id}
 ```
 
-ตัวอย่าง
+ตัวอย่างคำสั่ง
 
 ```
 curl http://localhost:8080/coffees/2
@@ -217,7 +217,7 @@ Response
 
 ---
 
-## 3. เพิ่มเมนูใหม่
+## 3. POST - เพิ่มเมนูใหม่
 
 Method
 
@@ -253,7 +253,7 @@ Coffee Added
 
 ---
 
-## 4. แก้ไขข้อมูล
+## 4. PUT - แก้ไขข้อมูล
 
 Method
 
@@ -290,7 +290,7 @@ Updated
 
 ---
 
-## 5. ลบเมนู
+## 5. DELETE - ลบเมนู
 
 Method
 
