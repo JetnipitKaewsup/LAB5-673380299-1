@@ -1,6 +1,6 @@
 # Coffee REST API with Spring Boot
 
-โปรเจ็กต์ตัวอย่างสำหรับฝึกพัฒนา **REST API** ด้วย **Spring Boot** โดยเน้นเรียนรู้พื้นฐานของ
+โปรเจ็กต์ฝึกพัฒนา **REST API** ด้วย **Spring Boot** โดยเน้นเรียนรู้พื้นฐานของ
 
 - HTTP Methods (GET, POST, PUT, DELETE)
 - Layered Design (Controller / Service / Model)
